@@ -1,0 +1,9 @@
+Flask
+Pillow
+craft_hw_ocr
+loko-client
+loko-extensions
+python-doctr
+sentencepiece
+torch
+transformers

@@ -1,0 +1,10 @@
+{
+  "main": {
+    "volumes": [
+      "/home/fulvio/.cache/:/root/.cache/"
+    ],
+    "gui": {
+      "name": "Handwriting"
+    }
+  }
+}
