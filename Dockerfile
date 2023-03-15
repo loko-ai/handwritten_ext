@@ -5,7 +5,7 @@ RUN yarn install
 ADD ./frontend /frontend
 RUN yarn build --base="/routes/handwritten_ext/web/"
 
-FROM python:3.7-slim
+FROM lokoai/python_transformers
 RUN apt-get update && apt-get install -y python3-opencv
 EXPOSE 8080
 ADD ./requirements.txt /

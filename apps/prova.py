@@ -6,7 +6,7 @@ processor = TrOCRProcessor.from_pretrained("microsoft/trocr-base-handwritten")
 model = VisionEncoderDecoderModel.from_pretrained("microsoft/trocr-base-handwritten")
 
 # load image from the IAM dataset
-url = "/media/fulvio/Data/Docs/Sample-handwritten-text-from-CVL-Database.png"
+url = "line1.png"
 # image = Image.open(requests.get(url, stream=True).raw).convert("RGB")
 image = Image.open(url).convert("RGB")
 
