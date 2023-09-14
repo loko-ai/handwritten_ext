@@ -1,7 +1,7 @@
 {
   "main": {
     "volumes": [
-      "/home/fulvio/.cache/:/root/.cache/"
+      "/var/opt/huggingface:/root/.cache/huggingface"
     ],
     "gui": {
       "name": "Handwriting"

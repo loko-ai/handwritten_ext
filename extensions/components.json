@@ -1,10 +1,11 @@
 [
  {
   "name": "handwritten",
-  "description": "",
+  "description": "### Description\n**handwritten** component recognizes and extracts handwritten text from images.\n\n### Input\nThe component accepts an image file in input.\n\n### Output\nThe output is the list of the extracted texts from the image:\n\n```\n{\n    \"msg\": [\"industry, \" Mr. Brown commented icily, Let us have a\"]\n}\n```\n\n",
   "group": "Custom",
   "icon": "RiCheckboxBlankCircleFill",
   "click": null,
+  "events": null,
   "configured": true,
   "inputs": [
    {

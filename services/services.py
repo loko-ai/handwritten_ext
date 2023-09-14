@@ -11,9 +11,11 @@ from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 from business.linesegmentation import lineSegmentation
 import numpy as np
 
+from doc.doc import handwritten_doc
+
 app = Flask("new_ocr", static_url_path="/web", static_folder="/frontend/dist")
 
-c = Component("handwritten")
+c = Component("handwritten", description=handwritten_doc)
 
 save_extensions([c])
 
